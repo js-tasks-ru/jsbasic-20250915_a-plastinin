@@ -6,4 +6,9 @@ describe('3-module-5-task', () => {
   it('25 : -1 / -234 - 4 = 1000', () => {
     expect(getMinMax('25 : -1 / -234 - 4 = 1000')).toEqual({ min: -234, max: 1000 });
   });
+
+  it('массив из одного элемента', () => {
+    expect(getMinMax('46 попугаев')).toEqual({ min: 46, max: 46 });
+  });
+
 });
